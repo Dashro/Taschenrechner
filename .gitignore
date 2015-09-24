@@ -1,0 +1,10 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/Debug/Taschenrechner.tlog
+/Debug
+/GeneratedFiles
+/Win32/Debug
+*.user
+*.sdf
