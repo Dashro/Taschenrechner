@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Dateien">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;cxx;c;def</Extensions>
-    </Filter>
-    <Filter Include="Header Dateien">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h</Extensions>
-    </Filter>
     <Filter Include="Form Dateien">
       <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
       <Extensions>ui</Extensions>
@@ -39,52 +31,16 @@
     <Filter Include="Protokoll">
       <UniqueIdentifier>{86c07373-12e3-4aea-9cd4-a5614e0717a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Rechner">
+      <UniqueIdentifier>{a4381bab-a034-4563-887e-f14d863a5ce1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GeneratedFiles\Debug\moc_cmainwindow.cpp">
-      <Filter>Generierte Dateien\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_cmainwindow.cpp">
-      <Filter>Generierte Dateien\Release</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\qrc_cmainwindow.cpp">
       <Filter>Generierte Dateien</Filter>
     </ClCompile>
-    <ClCompile Include="Grundrechenarten.cpp">
-      <Filter>Source Dateien</Filter>
-    </ClCompile>
-    <ClCompile Include="cmainwindow.cpp">
-      <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Main</Filter>
-    </ClCompile>
-    <ClCompile Include="Protokoll.cpp">
+    <ClCompile Include="..\Protokoll\Protokoll.cpp">
       <Filter>Protokoll</Filter>
-    </ClCompile>
-    <ClCompile Include="ProtokollItem.cpp">
-      <Filter>Protokoll</Filter>
-    </ClCompile>
-    <ClCompile Include="ProtokollPrinter.cpp">
-      <Filter>Protokoll</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_Grundrechenarten.cpp">
-      <Filter>Generierte Dateien\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_ProtokollPrinter.cpp">
-      <Filter>Generierte Dateien\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_ProtokollItem.cpp">
-      <Filter>Generierte Dateien\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_Grundrechenarten.cpp">
-      <Filter>Generierte Dateien\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_ProtokollPrinter.cpp">
-      <Filter>Generierte Dateien\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_ProtokollItem.cpp">
-      <Filter>Generierte Dateien\Release</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_Protokoll.cpp">
       <Filter>Generierte Dateien\Debug</Filter>
@@ -92,26 +48,67 @@
     <ClCompile Include="GeneratedFiles\Release\moc_Protokoll.cpp">
       <Filter>Generierte Dateien\Release</Filter>
     </ClCompile>
+    <ClCompile Include="..\Protokoll\ProtokollItem.cpp">
+      <Filter>Protokoll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProtokollItem.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProtokollItem.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Protokoll\ProtokollPrinter.cpp">
+      <Filter>Protokoll</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ProtokollPrinter.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ProtokollPrinter.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Rechner\Grundrechenarten.cpp">
+      <Filter>Rechner</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Grundrechenarten.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Grundrechenarten.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cmainwindow.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cmainwindow.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cmainwindow.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="cmainwindow.h">
+    <CustomBuild Include="..\cmainwindow.qrc">
+      <Filter>Resource Dateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Protokoll\Protokoll.h">
+      <Filter>Protokoll</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Protokoll\ProtokollItem.h">
+      <Filter>Protokoll</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Protokoll\ProtokollPrinter.h">
+      <Filter>Protokoll</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Rechner\Grundrechenarten.h">
+      <Filter>Rechner</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\cmainwindow.h">
       <Filter>Main</Filter>
     </CustomBuild>
-    <CustomBuild Include="cmainwindow.qrc" />
-    <CustomBuild Include="cmainwindow.ui">
+    <CustomBuild Include="..\cmainwindow.ui">
       <Filter>Main</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Grundrechenarten.h">
-      <Filter>Header Dateien</Filter>
-    </CustomBuild>
-    <CustomBuild Include="ProtokollPrinter.h">
-      <Filter>Protokoll</Filter>
-    </CustomBuild>
-    <CustomBuild Include="ProtokollItem.h">
-      <Filter>Protokoll</Filter>
-    </CustomBuild>
-    <CustomBuild Include="Protokoll.h">
-      <Filter>Protokoll</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
