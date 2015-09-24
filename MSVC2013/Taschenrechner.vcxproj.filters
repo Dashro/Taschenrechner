@@ -34,6 +34,9 @@
     <Filter Include="Rechner">
       <UniqueIdentifier>{a4381bab-a034-4563-887e-f14d863a5ce1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Customplot">
+      <UniqueIdentifier>{37ae72dc-2cba-4ce8-8bce-41bddd83ab5e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GeneratedFiles\qrc_cmainwindow.cpp">
@@ -87,6 +90,15 @@
     <ClCompile Include="..\main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="..\Customplot\qcustomplot.cpp">
+      <Filter>Customplot</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qcustomplot.cpp">
+      <Filter>Generierte Dateien\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qcustomplot.cpp">
+      <Filter>Generierte Dateien\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="..\cmainwindow.qrc">
@@ -109,6 +121,9 @@
     </CustomBuild>
     <CustomBuild Include="..\cmainwindow.ui">
       <Filter>Main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Customplot\qcustomplot.h">
+      <Filter>Customplot</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
