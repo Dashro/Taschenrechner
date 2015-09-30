@@ -4,6 +4,7 @@
 #include <QStandardItemModel>
 #include <qtableview.h>
 #include <QtWidgets/QMainWindow>
+#include <qmainwindow.h>
 #include <qstring.h>
 #include <iostream>
 

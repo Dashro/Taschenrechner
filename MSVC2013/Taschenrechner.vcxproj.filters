@@ -125,10 +125,8 @@
     <CustomBuild Include="..\Customplot\qcustomplot.h">
       <Filter>Customplot</Filter>
     </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_cmainwindow.h">
+    <CustomBuild Include="GeneratedFiles\ui_cmainwindow.h">
       <Filter>Generierte Dateien</Filter>
-    </ClInclude>
+    </CustomBuild>
   </ItemGroup>
 </Project>

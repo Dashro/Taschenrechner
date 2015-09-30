@@ -22,3 +22,4 @@ MSVC2013/GeneratedFiles/ui_cmainwindow.h
 MSVC2013/Taschenrechner.opensdf
 *.ilk
 MSVC2013/Win32/Debug/Taschenrechner.exe
+MSVC2013/GeneratedFiles/Debug/moc_qcustomplot.cpp
