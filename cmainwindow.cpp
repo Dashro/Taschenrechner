@@ -22,7 +22,7 @@ CMainWindow::CMainWindow(QWidget *parent)
 	connect(ui.pBtn_1, SIGNAL(clicked()), this, SLOT(pushed_1()));
 	connect(ui.pBtn_2, SIGNAL(clicked()), this, SLOT(pushed_2()));
 	connect(ui.pBtn_3, SIGNAL(clicked()), this, SLOT(pushed_3()));
-	connect(ui.pBtn_4, SIGNAL(clicked()), this, SLOT(pushed_4()));
+    connect(ui.pBtn_4, SIGNAL(clicked()), this, SLOT(pushed_4()));
 	connect(ui.pBtn_5, SIGNAL(clicked()), this, SLOT(pushed_5()));
 	connect(ui.pBtn_6, SIGNAL(clicked()), this, SLOT(pushed_6()));
 	connect(ui.pBtn_7, SIGNAL(clicked()), this, SLOT(pushed_7()));

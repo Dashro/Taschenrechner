@@ -26,8 +26,10 @@ void CGrundrechenarten::setEingabe(QString *Eingabe_)
 
 QString CGrundrechenarten::Calculate_Basic()
 {
+    QStringList operators;
+    operators << "+" << "-" << "*" << "/";
 
-	generateOperatorList(QList < QString > {"+", "-", "*", "/"} );
+    generateOperatorList(operators);
 	generateNumList();
 
 	while (OperatorList->size() != 0)
