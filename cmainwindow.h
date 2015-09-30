@@ -4,12 +4,13 @@
 #include <QStandardItemModel>
 #include <qtableview.h>
 #include <QtWidgets/QMainWindow>
+#include <qmainwindow.h>
 #include <qstring.h>
 #include <iostream>
 
 #include "ui_cmainwindow.h"
-#include "Grundrechenarten.h"
-#include "Protokoll.h"
+#include "Rechner/Grundrechenarten.h"
+#include "Protokoll/Protokoll.h"
 
 
 class CMainWindow : public QMainWindow
